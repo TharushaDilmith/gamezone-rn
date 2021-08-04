@@ -25,6 +25,7 @@ const Home = ({navigation}) => {
       renderItem={({item})=>(
           <TouchableOpacity onPress={()=> navigation.navigate('ReviewDetails',item)} >
               <Text style={globalStyles.text} >{item.title}</Text>
+              <Text>Hello</Text>
           </TouchableOpacity>
       )
     
